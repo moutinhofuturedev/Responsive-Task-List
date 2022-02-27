@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Task List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="external.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="box1">
+                <h2>Task List</h2>
+                <div class="sub-box1">
+                    <form id="new-task" action="#">
+                        <p id="top-appear" class="form-appear">New Task</p>
+                        <input id="text"class="form-text" type="text" placeholder="New Task">
+                        <hr id="hr1">
+                        <input type="submit" id="add-task-btn" name="Add Task" value="Add Task">
+                    </form>
+                </div>
+            </div>
+            
+            <div class="box2">
+                <h2>Tasks</h2>
+                <div class="sub-box2">
+                        <p class="form-appear">Filter Tasks</p>
+                    <input type="text" name="filter" class="form-text" id="filter" placeholder="Filter tasks">
+                </div>
+                <hr id="hr2">
+                <ul id="task-add-ul">
+
+                </ul>
+            </div>
+            <a id="clear-tasks" href="#">Clear tasks</a>
+        </div>    
+    </div>
+
+    <!-- <i class="fa fa-remove"></i> -->
+
+    <script src="main.js"></script>
+</body>
+</html>
