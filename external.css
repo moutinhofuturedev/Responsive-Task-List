@@ -6,11 +6,8 @@
 }
 
 body {
-    background: linear-gradient(
-    90deg,
-    #6a6c6e 0%,
-    #232526 100%
-  );
+    /* background: #000033 100% */
+    background: linear-gradient(90deg, #555758 0%, #1a1c1d 100%);
 }
 
 hr{
@@ -25,12 +22,15 @@ hr{
 
 .container{
     font-family: 'Poppins', sans-serif;
-    background: #fff;
+    background: linear-gradient(45deg, #000 0%, #555758 100%);
+    /* background: #fff; */
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin: 5rem auto 2rem auto;
+    padding: 28px;
+    margin: 3.5rem auto 2rem auto;
     border: 1px solid #e0e0e0;
+    border-radius: 15px;
     -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
@@ -44,7 +44,7 @@ hr{
     font-size: 1.5rem;
     font-weight: 300;
     line-height: 2rem;
-    color:rgba(0, 0, 0, 0.87);
+    color: #fff;
     margin-bottom: 2rem;
     margin-top: 1.5rem;
     margin-left: 1.3rem;
@@ -83,12 +83,12 @@ hr{
 }
 
 #add-task-btn{
-    font-family: 'Roboto', serif;
+    /* font-family: 'Poppins', serif; */
     font-size: 1rem;
     line-height: 2.2rem;
     width: 135px;
     height: 35px;
-    background:#26A69A;
+    background:#ffe605;
     color: #fff;
     text-align: center;
     cursor: pointer;
@@ -104,16 +104,12 @@ hr{
     margin-bottom: 2.5rem;
 }
 
-#add-task-btn:hover{
-    background: #2BBBAD;
-}
-
 .box2 h2{
     font-size: 1.5rem;
     font-weight: 300;
     line-height: 2rem;
     font-weight: 400;
-    color: rgba(0, 0, 0, 0.87);
+    color: #fff;
     margin-bottom: 2rem;
     margin-top: 1.5rem;
     margin-left: 1.3rem;
@@ -154,17 +150,17 @@ hr{
 
 #task-add-ul i{
     display: inline-block;
-    /* color: #FFAB40; */
+    color: #FFAB40;
     color: #000;
 }
-
+/* button */
 #clear-tasks{
     width: 160px;
     height: 35px;
     display: block;
     cursor: pointer;
     color: #fff;
-    background: #000;
+    background: #d71605;
     text-align: center;
     text-decoration: none;
     padding-top: 0.2rem;
