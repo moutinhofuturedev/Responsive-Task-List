@@ -171,3 +171,24 @@ hr{
     margin-left: 0.6rem;
     margin-bottom: 1.1rem;
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 80%;
+        text-align: center;
+    }
+    .form-text {
+        text-align: center;
+    }
+    h2 {
+        text-align: center;
+    }
+    
+    ul {
+        text-align: center;
+    }
+    #clear-tasks {
+        width: auto;
+    }
+    
+ }
