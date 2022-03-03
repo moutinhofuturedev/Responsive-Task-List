@@ -6,8 +6,8 @@ let i = 0;
 // Top appear
 formTextTop.addEventListener('focus', function(){
     if(document.getElementById('top-appear').style.display = "none") {
-        document.getElementById('top-appear').style.display = "block";
-        document.getElementById('hr1').style.border = "1px solid #26a69a";
+        // document.getElementById('top-appear').style.display = "block";
+        // document.getElementById('hr1').style.border = "1px solid #26a69a";
     };
     return i = 1;
 });
@@ -15,8 +15,8 @@ formTextTop.addEventListener('focus', function(){
 // Bottom appear
 formTextBottom.addEventListener('focus', function(){
     if(document.getElementsByClassName('form-appear')[1].style.display = "none") {
-        document.getElementsByClassName('form-appear')[1].style.display = "block";
-        document.getElementById('hr2').style.border = "1px solid #26a69a";
+        // document.getElementsByClassName('form-appear')[1].style.display = "block";
+        // document.getElementById('hr2').style.border = "1px solid #26a69a";
     };
     return i = 1;
 });
