@@ -190,5 +190,8 @@ hr{
     #clear-tasks {
         width: auto;
     }
+    #hr1, #hr2  {
+        width: 94%;
+    }
     
  }
